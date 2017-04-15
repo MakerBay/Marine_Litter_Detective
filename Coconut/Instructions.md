@@ -19,3 +19,11 @@
 # Sand it
 
 ![sand](https://c2.staticflickr.com/4/3698/33080022296_4640792bb5_z.jpg)
+
+# Prepare the electronics
+
+![elec](https://c2.staticflickr.com/4/3776/32689081903_8c5703819e_z.jpg)
+
+# Seal it
+
+![seal](https://c1.staticflickr.com/1/734/33392733426_701e8b661c_z.jpg)
