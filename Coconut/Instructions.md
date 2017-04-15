@@ -16,9 +16,9 @@
 
 ![eat](https://c1.staticflickr.com/3/2862/33049906540_010aaa9476_z.jpg)
 
-# Sand it
+# Chisel
 
-![sand](https://c2.staticflickr.com/4/3698/33080022296_4640792bb5_z.jpg)
+![chisel](https://c1.staticflickr.com/3/2910/33236349053_3b4c640daa_z.jpg)
 
 # Prepare the electronics
 
