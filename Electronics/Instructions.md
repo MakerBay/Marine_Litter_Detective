@@ -23,8 +23,33 @@ So it would be around 5 hours . Rundown is not fixed at the moment so we can dis
 ## Seal the electronics in wax
 ## Re-test electronics outside / by the window
 ## Open the coconut
-##
 
 # Launch
 # Data Collection
 # Wrap Up
+
+
+
+## Comments for manufacturing boards Seeed Studio
+### LoNet 808
+- LoNET 808 should come come with GPS and Phone antenna
+- Header connector pins should be attached
+- LoNET 808 Power LED 
+
+### Comments for manufacturing PCBs
+- PCBs to soldered
+- PCBs to be Eco / Recycled PCBs
+
+### Comments for sourcing batteries
+- Battery 3000 mA/h, type: 18650, ideally Panasonic and cheap
+- Solder wires to the batteries (15cm) with connector mounted
+
+### Comments for sourcing battery charger
+- We need to charge 110 devices over 11 events.
+
+## Ask about
+- Can you make sure the batteries are 100% charged
+- Availabilitues
+- Timeline
+- Budget
+- bulk pricing
