@@ -18,6 +18,7 @@ Our pririties are to make
 
 # [Data visualisation](https://github.com/MakerBay/Trashtracker/tree/master/Dataviz)
 ![Student Drifters](https://c1.staticflickr.com/3/2937/33684581620_3e84727a2c_z.jpg)
+
 We have been very impressed with the work of student drifters and we are learning a lot from them, principally about from their 
 - Python scripts and
 - Leaflet-powered data visualisation: studentdrifters.org/huanxin/leaflet/examples/drifter.html
@@ -25,19 +26,23 @@ We are  in the process of setting up a collaboration.
 
 # [Software server side](https://github.com/MakerBay/Trashtracker/tree/master/Server)
 ![Server](https://c1.staticflickr.com/3/2922/33257374233_097e389557_z.jpg)
+
 We are using a simple MySQL Server to collect the data via ftp/http request.
 We are currently using a PHP script to extract the data and prepare it for data visualisation via a Json, or CSV file. 
 
 # [Software on device](https://github.com/MakerBay/Trashtracker/tree/master/Tracker)
 ![Device](https://c1.staticflickr.com/3/2909/33257361673_d1350ff440_z.jpg)
+
 On the device we are using the Arduino IDE: https://www.arduino.cc/en/main/software
 
 # [Electronics](https://github.com/MakerBay/Trashtracker/tree/master/Electronics)
 ![Electonics](https://c1.staticflickr.com/3/2911/33684464920_3e7cd0a56f_z.jpg)
+
 The device is equiped with an 3.3V arduino pro mini that
 
 # [Coconut](https://github.com/MakerBay/Trashtracker/tree/master/Coconut)
 ![supermarket coconut](https://c1.staticflickr.com/1/743/32590198664_fbb815bce5_z.jpg)
+
 We are trying to get our electronics are "eco" as possible, so the housing of our electronics is
 - Coconut shell: for protection against impact
 - Recycled cork chips: for flotation
