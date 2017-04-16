@@ -64,6 +64,7 @@ We are trying to get our electronics are "eco" as possible, so the housing of ou
 - Rohak Singhal [MakerBay] rohaksinghal14@gmail.com
 - Jackie Wong [MakerBay] chinsun91@gmail.com
 - Michael CY CHENG [INDEPENDENT] +852 9809 8736, mic.cycheng@gmail.com
+
 Special thanks to 
 - [Seeed Studio](https://www.seeedstudio.com)
 - [Student Drifter](studentdrifters.org)
