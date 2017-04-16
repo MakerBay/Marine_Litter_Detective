@@ -67,8 +67,9 @@ We are trying to get our electronics are "eco" as possible, so the housing of ou
 Special thanks to 
 - [Seeed Studio](https://www.seeedstudio.com)
 - [Student Drifter](studentdrifters.org)
-- Prof James Manning NOAA
-- Xavier Huanxin Xu
+- Prof James Manning (NOAA) (https://www.researchgate.net/profile/James_Manning3)
+- Xavier Huanxin Xu (NOAA) 
+- Jie Qi (MIT) (http://technolojie.com/category/featured-projects/)
 
 <hr>
 
