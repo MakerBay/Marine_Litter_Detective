@@ -1,4 +1,4 @@
-# Marine-Litter-Detective
+# Marine Litter Detective
 
 ![Arduino in coconut](https://c1.staticflickr.com/3/2940/32739309070_780d739c2a_z.jpg)
 ![Map of Drifter in HK Waters](https://c2.staticflickr.com/4/3695/32739310090_6fef4b8bc1_z.jpg)
