@@ -38,4 +38,6 @@ In the process of developing the waterproofing of the electronics
 ![Moulded](http://farm3.staticflickr.com/2888/10918858284_b227193fc8_z.jpg)
 
 Above image is the courtesy of Jie Qi: https://www.flickr.com/photos/jieq/
-Inspired by the work of Jie Qi we explored the possibility of making our own custom PCB out of paper and sticky copper. We hope to implement such eco-PCB soon. More research and tests coming soon :)
+
+Inspired by the work of Jie Qi we explored the possibility of making our own custom PCB out of paper and sticky copper. 
+We hope to implement such eco-PCB soon. More research and tests coming soon :)
