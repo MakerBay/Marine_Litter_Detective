@@ -33,7 +33,7 @@ We are currently using a PHP script to extract the data and prepare it for data 
 On the device we are using the Arduino IDE: https://www.arduino.cc/en/main/software
 
 # [Electronics](https://github.com/MakerBay/Trashtracker/tree/master/Electronics)
-![Electonics](https://c2.staticflickr.com/4/3945/34068780145_6b6453739d_z.jpg)
+![Electonics](https://c1.staticflickr.com/3/2911/33684464920_3e7cd0a56f_z.jpg)
 The device is equiped with an 3.3V arduino pro mini that
 
 # [Coconut](https://github.com/MakerBay/Trashtracker/tree/master/Coconut)
