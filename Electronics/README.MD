@@ -1,17 +1,17 @@
 # Bill of Materials
 | Component | Quantity | Link |
 | --- | --- | --- |
-| Arduino Pro Mini 3.3V | 1 | https://www.arduino.cc/en/Main/ArduinoBoardProMini |
-| LoNet 808 Seeed (incl. GPS + Phone antenna) | 1 | https://www.seeedstudio.com/LoNet-808-Mini-GSM%26amp%3BGPRS-%2B-GPS-Breakout-p-2493.html |
+| Arduino Pro Mini 3.3V | 1 | https://goo.gl/s1k4pC |
+| LoNet 808 Seeed (incl. GPS + Phone antenna) | 1 | https://goo.gl/HKax1F |
 | Adapter board (custom made) | 1 | 
-| Battery 18650 (2900mAh) | 1 | https://www.sparkfun.com/products/12895 |
+| Battery 18650 (2900mAh) | 1 | https://goo.gl/kCkjYg |
 | Local Mobile SIM card | 1 | |
 | Battery Wires, 15cm red and black | 1 | |
 | Coconut shell from drinks | 1 | |
 | Wax for Insulating electronics | 1 | |
 | Cork chips | 1 | |
 | Rubber Band from bicycle tyres | 1 | |
-| "Dog Tag" in Aluminium with serial number and details to return device | 1 | https://upload.wikimedia.org/wikipedia/commons/2/2b/US_Dog_Tag_with_Surname%2C_First_name%2C_Social_Security_number%2C_Blood_type%2C_Religion.jpg |
+| "Dog Tag" in Aluminium with serial number and details to return device | 1 | https://goo.gl/YjCnZq |
 
 ## Comments for manufacturing boards Seeed Studio
 ### LoNet 808
