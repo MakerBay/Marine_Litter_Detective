@@ -1,13 +1,7 @@
 <?php
 
-//$username = "root";
-//$password = "";
-//$hostname = "localhost";
-//$database_name = "project_trashtrack";
-//$table_name = "geo_location";
-
-$username = "makerbench";
-$password = "trashdetective";
+$username = "xxxxxxxxxx";
+$password = "yyyyyyyyyyyyyy";
 $hostname = "db.makerbench.org";
 $database_name = "makerbench";
 $table_name = "trashtrack_01";
