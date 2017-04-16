@@ -59,10 +59,10 @@ We are trying to get our electronics are "eco" as possible, so the housing of ou
 
 ## Team
 - Patrick Yeung [WWF] pyeung@wwf.org.hk
-- Cesar Jung-Harada [MakerBay] +852 9610 7593, contact@cesarharada.com
-- Eddie Yung [MakerBay] eddieyung2006@gmail.com
-- Rohak Singhal [MakerBay] rohaksinghal14@gmail.com
-- Jackie Wong [MakerBay] chinsun91@gmail.com
+- Cesar Jung-Harada [MakerBay] +852 9610 7593, contact@cesarharada.com, https://github.com/cesarharada
+- Eddie Yung [MakerBay] eddieyung2006@gmail.com, https://github.com/fisher4668
+- Rohak Singhal [MakerBay] rohaksinghal14@gmail.com, https://github.com/krohak
+- Jackie Wong Ching Sun [MakerBay] chinsun91@gmail.com, https://github.com/chinsun
 - Michael CY CHENG [INDEPENDENT] +852 9809 8736, mic.cycheng@gmail.com
 
 Special thanks to 
