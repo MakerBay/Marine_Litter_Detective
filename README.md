@@ -66,11 +66,13 @@ We are trying to get our electronics are "eco" as possible, so the housing of ou
 - Michael CY CHENG [INDEPENDENT] +852 9809 8736, mic.cycheng@gmail.com
 
 Special thanks to 
-- [Seeed Studio](https://www.seeedstudio.com)
-- [Student Drifter](studentdrifters.org)
-- Prof James Manning (NOAA) (https://www.researchgate.net/profile/James_Manning3)
+- [Seeed Studio]( https://www.seeedstudio.com )
+- [Student Drifter]( http://www.studentdrifters.org )
+- Prof James Manning (NOAA) ( https://www.researchgate.net/profile/James_Manning3 )
 - Xavier Huanxin Xu (NOAA) 
-- Jie Qi (MIT) (http://technolojie.com/category/featured-projects/)
+- Jie Qi (MIT) ( http://technolojie.com/category/featured-projects/ )
+- Cy Keener (Stanford University) ( http://www.cykeener.com/ )
+- Inspiration from https://www.greenwaveinstruments.com/product
 
 <hr>
 
