@@ -1,5 +1,6 @@
 # Bill of Materials
 | Component | Quantity | Link |
+| --- | --- | --- |
 | Arduino Pro Mini 3.3V | 1 | https://www.arduino.cc/en/Main/ArduinoBoardProMini |
 | LoNet 808 Seeed (incl. GPS + Phone antenna) | 1 | https://www.seeedstudio.com/LoNet-808-Mini-GSM%26amp%3BGPRS-%2B-GPS-Breakout-p-2493.html |
 | Adapter board (custom made) | 1 | 
