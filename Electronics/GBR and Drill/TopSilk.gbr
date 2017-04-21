@@ -1,0 +1,21 @@
+G04 DipTrace 3.0.0.2*
+G04 TopSilk.gbr*
+%MOIN*%
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.Part,Single*
+%ADD14C,0.008*%
+%FSLAX26Y26*%
+G04*
+G70*
+G90*
+G75*
+G01*
+G04 TopSilk*
+%LPD*%
+X200000Y1550000D2*
+D14*
+Y250000D1*
+X900000D1*
+Y1550000D1*
+X200000D1*
+M02*
