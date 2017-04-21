@@ -13,15 +13,21 @@
 | Rubber Band from bicycle tyres | 1 | |
 | "Dog Tag" in Aluminium with serial number and details to return device | 1 | https://goo.gl/YjCnZq |
 
-![Gerber file](https://c1.staticflickr.com/3/2853/34133517526_1c834e470c.jpg)
+This is how the different boards look like
+![Gerber file](https://c1.staticflickr.com/3/2861/34133292116_ba87f14f3f_n.jpg)
+![Gerber file](https://c1.staticflickr.com/3/2920/34133291016_7f316bd236_n.jpg)
+![Gerber file](https://c1.staticflickr.com/3/2883/34133290566_83732f72a5_n.jpg)
+![Gerber file](https://c1.staticflickr.com/3/2880/33362939823_464073d450_n.jpg)
+![Gerber file](https://c1.staticflickr.com/3/2873/34133289586_0926fdeea1_n.jpg)
 
 
-## Comments for manufacturing boards Seeed Studio
+## Comments for manufacturing the kit with Seeed Studio
 ### LoNet 808
 - LoNET 808 should come come with GPS and Phone antenna, does it?
 - Header connector pins should be attached, can it be?
 - LoNET 808 Power LED can be low power / skipped as it drains battery
 
+![Gerber file](https://c1.staticflickr.com/3/2853/34133517526_1c834e470c.jpg)
 ### Comments for manufacturing PCBs
 - PCBs to soldered
 - PCBs to be Eco / Recycled PCBs / wood PCB
