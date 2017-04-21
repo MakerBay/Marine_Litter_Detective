@@ -13,6 +13,9 @@
 | Rubber Band from bicycle tyres | 1 | |
 | "Dog Tag" in Aluminium with serial number and details to return device | 1 | https://goo.gl/YjCnZq |
 
+![Gerber file](https://c1.staticflickr.com/3/2853/34133517526_1c834e470c.jpg)
+
+
 ## Comments for manufacturing boards Seeed Studio
 ### LoNet 808
 - LoNET 808 should come come with GPS and Phone antenna, does it?
