@@ -70,6 +70,7 @@ Special thanks to
 - [Student Drifter]( http://www.studentdrifters.org )
 - Prof James Manning (NOAA) ( https://www.researchgate.net/profile/James_Manning3 )
 - Xavier Huanxin Xu (NOAA) 
+- Tom Chi ( http://www.tomchi.com/ )
 - Jie Qi (MIT) ( http://technolojie.com/category/featured-projects/ )
 - Cy Keener (Stanford University) ( http://www.cykeener.com/ )
 - Inspiration from https://www.greenwaveinstruments.com/product
