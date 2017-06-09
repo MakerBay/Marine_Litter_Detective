@@ -1,3 +1,6 @@
+Special thanks to Prof James Manning (NOAA) ( https://www.researchgate.net/profile/James_Manning3 ) and Xavier Huanxin Xu (NOAA) for the dataviz side of the code. It really helped us save a lot of time and we learnt a lot from it!
+
+
 # Leaflet TimeDimension
 
 Add time dimension capabilities on a [Leaflet](http://leafletjs.com/) map. 
