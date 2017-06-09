@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='drifter'
+  xsi:schemaLocation='1674207012,SalemSound_Marine_Tech,12.0,Terry,1674207012,1367080'
+  xmlns='http://www.topografix.com/GPX/1/1'
+  xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'
+  xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <metadata>
+    <link href='connect.garmin.com'>
+      <text>drifter  data</text>
+    </link>
+    <time>2015-03-08T07:27:47.000Z</time>
+  </metadata>
+  <trk>
+    <name>Xavier track</name>
+    <trkseg>
+      <trkpt lon="-70.77502" lat="42.53721">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-24T15:54:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.75437" lat="42.52896">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-24T20:03:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.75577" lat="42.53303">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-24T23:50:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.75545" lat="42.52484">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-25T03:54:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.76008" lat="42.51461">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-25T07:50:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.75025" lat="42.51473">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-25T11:51:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.74972" lat="42.50962">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-25T16:05:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.77132" lat="42.5016">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-25T19:57:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.76948" lat="42.50889">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-25T23:59:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.76171" lat="42.51333">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-26T04:05:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.76171" lat="42.51333">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-26T04:05:00.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

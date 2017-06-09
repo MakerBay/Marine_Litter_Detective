@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='drifter'
+  xsi:schemaLocation='160410701,EP_NOAA,0.1,Rock_Star,160410701,1352682'
+  xmlns='http://www.topografix.com/GPX/1/1'
+  xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'
+  xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <metadata>
+    <link href='connect.garmin.com'>
+      <text>drifter  data</text>
+    </link>
+    <time>2015-03-08T07:27:47.000Z</time>
+  </metadata>
+  <trk>
+    <name>Xavier track</name>
+    <trkseg>
+      <trkpt lon="-70.18944" lat="41.76243">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-13T16:25:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.18946" lat="41.79376">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-13T17:30:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.19469" lat="41.83086">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-13T18:31:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.18761" lat="41.86969">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-13T19:30:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.1751" lat="41.90775">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-13T20:33:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.15455" lat="41.93063">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-13T21:33:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.12418" lat="41.95693">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-13T22:32:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.10236" lat="41.97216">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-13T23:26:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.07906" lat="41.99087">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-14T00:33:00.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

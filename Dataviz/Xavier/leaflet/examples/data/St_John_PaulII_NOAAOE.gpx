@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='drifter'
+  xsi:schemaLocation='160410708,St_John_PaulII_NOAAOE,10.0,Remillard,160410708,1350736'
+  xmlns='http://www.topografix.com/GPX/1/1'
+  xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'
+  xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <metadata>
+    <link href='connect.garmin.com'>
+      <text>drifter  data</text>
+    </link>
+    <time>2015-03-08T07:27:47.000Z</time>
+  </metadata>
+  <trk>
+    <name>Xavier track</name>
+    <trkseg>
+      <trkpt lon="-70.23139" lat="41.87323">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-29T15:40:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.23134" lat="41.87735">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-29T16:48:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.23235" lat="41.8824">
+        <ele>58.20000076293945</ele>
+        <time>2016-10-29T17:42:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.17321" lat="42.00602">
+        <ele>58.20000076293945</ele>
+        <time>2016-11-03T06:58:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.17457" lat="42.00568">
+        <ele>58.20000076293945</ele>
+        <time>2016-11-03T07:45:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.17871" lat="42.00553">
+        <ele>58.20000076293945</ele>
+        <time>2016-11-03T08:46:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.19064" lat="42.00662">
+        <ele>58.20000076293945</ele>
+        <time>2016-11-03T11:03:59.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='drifter'
+  xsi:schemaLocation='173270151,UnivGhent,0.1,ep,173270151,561070'
+  xmlns='http://www.topografix.com/GPX/1/1'
+  xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'
+  xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <metadata>
+    <link href='connect.garmin.com'>
+      <text>drifter  data</text>
+    </link>
+    <time>2015-03-08T07:27:47.000Z</time>
+  </metadata>
+  <trk>
+    <name>Xavier track</name>
+    <trkseg>
+      <trkpt lon="2.92987346649" lat="51.2333893776">
+        <ele>58.20000076293945</ele>
+        <time>2017-01-27T01:11:00.000Z</time>
+      </trkpt>
+      <trkpt lon="2.92989492416" lat="51.2334001064">
+        <ele>58.20000076293945</ele>
+        <time>2017-01-27T19:27:59.000Z</time>
+      </trkpt>
+      <trkpt lon="2.92843580246" lat="51.2360930443">
+        <ele>58.20000076293945</ele>
+        <time>2017-02-06T19:29:00.000Z</time>
+      </trkpt>
+      <trkpt lon="2.92837142944" lat="51.2358677387">
+        <ele>58.20000076293945</ele>
+        <time>2017-02-07T19:12:59.000Z</time>
+      </trkpt>
+      <trkpt lon="2.92989492416" lat="51.2333357334">
+        <ele>58.20000076293945</ele>
+        <time>2017-02-08T19:20:00.000Z</time>
+      </trkpt>
+      <trkpt lon="3.71110439301" lat="51.0238337517">
+        <ele>58.20000076293945</ele>
+        <time>2017-02-09T19:20:00.000Z</time>
+      </trkpt>
+      <trkpt lon="3.18873882294" lat="51.2139487267">
+        <ele>58.20000076293945</ele>
+        <time>2017-02-15T19:29:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-15.3900647163" lat="27.9344880581">
+        <ele>58.20000076293945</ele>
+        <time>2017-02-21T22:12:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-15.3685212135" lat="27.9923808575">
+        <ele>58.20000076293945</ele>
+        <time>2017-03-21T19:12:59.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

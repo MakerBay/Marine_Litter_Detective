@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='drifter'
+  xsi:schemaLocation='164550081,Scarborough,0.1,Red_Storm,164550081,746564'
+  xmlns='http://www.topografix.com/GPX/1/1'
+  xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'
+  xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <metadata>
+    <link href='connect.garmin.com'>
+      <text>drifter  data</text>
+    </link>
+    <time>2015-03-08T07:27:47.000Z</time>
+  </metadata>
+  <trk>
+    <name>Xavier track</name>
+    <trkseg>
+      <trkpt lon="-8.944416" lat="55.13776">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-14T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.148843" lat="54.80243">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-14T22:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.057584" lat="54.48313">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-15T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214718" lat="54.25887">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-15T22:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214826" lat="54.2588">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-16T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.21489" lat="54.25884">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-16T22:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214847" lat="54.25885">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-17T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214933" lat="54.25884">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-17T22:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214847" lat="54.25884">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-18T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214911" lat="54.25881">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-18T22:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214869" lat="54.25884">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-19T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214954" lat="54.25868">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-19T22:43:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214869" lat="54.25885">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-20T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214933" lat="54.25884">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-20T22:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214761" lat="54.25876">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-21T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.21489" lat="54.25884">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-21T22:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214869" lat="54.25882">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-22T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214911" lat="54.25884">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-22T22:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214869" lat="54.25887">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-23T10:36:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-9.214933" lat="54.25885">
+        <ele>58.20000076293945</ele>
+        <time>2016-04-23T22:36:00.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='drifter'
+  xsi:schemaLocation='162420701,Swampscott_High_School,1.0,Ratley,162420701,1367637'
+  xmlns='http://www.topografix.com/GPX/1/1'
+  xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'
+  xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <metadata>
+    <link href='connect.garmin.com'>
+      <text>drifter  data</text>
+    </link>
+    <time>2015-03-08T07:27:47.000Z</time>
+  </metadata>
+  <trk>
+    <name>Xavier track</name>
+    <trkseg>
+      <trkpt lon="-70.9185" lat="42.41849">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-08T09:06:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.94211" lat="42.41377">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-08T17:24:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.91001" lat="42.41811">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-09T01:14:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.90988" lat="42.41828">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-10T01:00:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.90964" lat="42.41807">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-12T01:03:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.9099" lat="42.4182">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-12T08:57:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.90979" lat="42.41822">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-12T16:59:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.90992" lat="42.41826">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-13T01:21:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.90981" lat="42.41821">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-13T09:06:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.90988" lat="42.41825">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-13T17:17:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.90981" lat="42.4182">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-14T01:05:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.90979" lat="42.4182">
+        <ele>58.20000076293945</ele>
+        <time>2016-05-14T17:01:59.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

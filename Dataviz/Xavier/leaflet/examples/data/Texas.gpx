@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='drifter'
+  xsi:schemaLocation='166290951,Texas,1.0,Toro,166290951,1369703'
+  xmlns='http://www.topografix.com/GPX/1/1'
+  xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'
+  xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <metadata>
+    <link href='connect.garmin.com'>
+      <text>drifter  data</text>
+    </link>
+    <time>2015-03-08T07:27:47.000Z</time>
+  </metadata>
+  <trk>
+    <name>Xavier track</name>
+    <trkseg>
+      <trkpt lon="-91.21918" lat="27.93921">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-22T13:23:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-91.03732" lat="27.93506">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-23T12:13:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-90.76412" lat="27.90556">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-24T11:12:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-90.37761" lat="27.77697">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-25T10:16:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.79831" lat="27.71562">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-26T09:17:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.48784" lat="27.70718">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-27T08:14:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.56464" lat="27.84963">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-28T07:14:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.69442" lat="27.77905">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-29T06:06:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.61792" lat="27.76454">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-30T05:12:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.47696" lat="27.64512">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-31T04:12:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.3112" lat="27.18277">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-01T03:22:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.19044" lat="26.76262">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-02T02:06:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.0871" lat="26.4232">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-03T01:05:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-88.95726" lat="25.72931">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-04T00:06:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-88.88596" lat="25.17659">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-04T23:21:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.51645" lat="24.62073">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-06T21:06:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.95648" lat="24.636">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-07T20:08:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-90.39705" lat="24.831">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-08T19:14:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-90.75758" lat="25.24584">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-09T18:08:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-90.97748" lat="25.8275">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-10T17:06:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-89.94043" lat="26.33484">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-15T12:11:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-90.54596" lat="26.29139">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-17T10:16:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-91.47111" lat="25.78694">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-26T01:16:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-90.96935" lat="26.90459">
+        <ele>58.20000076293945</ele>
+        <time>2016-08-28T07:00:59.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
