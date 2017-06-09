@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='drifter'
+  xsi:schemaLocation='167420709,CSCR_Harborlight_Montesorri,10.0,Buckley,167420709,1348697'
+  xmlns='http://www.topografix.com/GPX/1/1'
+  xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'
+  xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <metadata>
+    <link href='connect.garmin.com'>
+      <text>drifter  data</text>
+    </link>
+    <time>2015-03-08T07:27:47.000Z</time>
+  </metadata>
+  <trk>
+    <name>Xavier track</name>
+    <trkseg>
+      <trkpt lon="-70.69461" lat="42.27148">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-15T16:09:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.69092" lat="42.2673">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-15T20:08:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.70009" lat="42.26491">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-16T00:20:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.68582" lat="42.26062">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-16T04:00:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.68343" lat="42.25089">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-16T08:15:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.7047" lat="42.24136">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-16T12:06:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.70054" lat="42.24528">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-16T16:03:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.70062" lat="42.24974">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-16T19:52:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.72193" lat="42.24879">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-17T00:04:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.72545" lat="42.25557">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-17T04:23:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.72993" lat="42.25997">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-17T07:57:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.75345" lat="42.26814">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-17T11:55:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.76478" lat="42.27484">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-17T15:53:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.76675" lat="42.28154">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-17T20:15:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.80195" lat="42.29467">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-18T00:09:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.81838" lat="42.3047">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-18T04:05:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.81838" lat="42.3047">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-18T04:05:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.81132" lat="42.3116">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-18T07:52:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.82124" lat="42.30396">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-18T11:57:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.84668" lat="42.30812">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-18T16:07:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.80407" lat="42.32514">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-18T20:19:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.7863" lat="42.3274">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-19T00:04:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.7986" lat="42.32718">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-19T04:02:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.78557" lat="42.34108">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-19T07:52:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.7874" lat="42.35382">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-19T12:09:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.79619" lat="42.3582">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-19T15:54:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.8028" lat="42.36213">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-19T20:03:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.8228" lat="42.36437">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-20T00:11:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.83924" lat="42.36002">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-20T04:09:00.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.81203" lat="42.34891">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-20T08:03:59.000Z</time>
+      </trkpt>
+      <trkpt lon="-70.79701" lat="42.32887">
+        <ele>58.20000076293945</ele>
+        <time>2016-07-20T12:06:59.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
