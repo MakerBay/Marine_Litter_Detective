@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Xavier first drifter track</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+        <link rel="stylesheet" href="js/vendors/leaflet-0.7.7/leaflet.css" />
+        <link rel="stylesheet" href="js/vendors/leaflet-plugins/Leaflet.Coordinates-0.1.3.css" />
+        <link rel="stylesheet" href="js/vendors/leaflet-plugins/Control.FullScreen.css" />
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+        <link rel="stylesheet" href="../src/leaflet.timedimension.control.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="js/vendors/jquery.datetimepicker.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div id="header">
+                <h1><center>Sailboat Track</center>  </h1> 
+                
+            </div>
+            
+            <div id="map" class="map" ></div>
+            <p>
+                <h2>Select start time and end time of the animation loop</h2>
+                <div style="float:left; margin-right: 10px;">
+                <label for="start_time">Start time (GMT)</label><br/><input id="dtp_start" name="start_time" type="text" >
+                </div>
+                <div style="float:left; margin-right: 10px;">
+                <label for="end_time">End time (GMT)</label><br/><input id="dtp_end" name="end_time" type="text" >                
+                </div>
+                <div style="float:left; padding-top: 50px;">
+                    <button type="button" id="btn_limitrange" class="btn" >Apply new time limits range</button><br />
+                    <p>Click button above when you set drifter time range  </p>
+                    
+                    <button type="button" id="btn_timerange" class="btn" >Apply time to available range</button>
+                    <p>Click second button while you need to reset time slider <br>after you set time range</p> 
+                    
+                </div>
+            </p>
+            <div style="clear: both;"></div>
+       
+
+
+            
+            <pre><code class="javascript" id="code"></code></pre>
+            <div class="disclaimer">
+                <center>Reference <a href="http://apps.socib.es/Leaflet.TimeDimension/examples/" title="Timedimension">Timedimension</a> from <a href="http://apps.socib.es/Leaflet.TimeDimension/examples/" title="timedimension">http://apps.socib.es/Leaflet.TimeDimension/examples/</a> is licensed under <a href="https://github.com/socib/Leaflet.TimeDimension/blob/master/LICENSE" title="2014 ICTS SOCIB">2014 ICTS SOCIB</a><br>Presented py <a>Jim Manning, Xavier Xu (NOAA NEFSC),Ariadne Dimoulas(EP)   &nbsp&nbsp Email: james.manning@noaa.gov ; xhx509@gmail.com </a> </center>    
+                                   
+        </div>
+
+            
+                                   
+        </div>
+
+        <script type="text/javascript" src="js/vendors/jquery-2.0.0.min.js"></script>
+        <script type="text/javascript" src="js/vendors/jquery-ui-1.10.2.min.js"></script>
+
+        <script type="text/javascript" src="js/vendors/leaflet-0.7.7/leaflet.js"></script>
+        <script type="text/javascript" src="js/vendors/leaflet-plugins/Leaflet.Coordinates-0.1.3.min.js"></script>
+        <script type="text/javascript" src="js/vendors/leaflet-plugins/Control.FullScreen.js"></script>
+        <script type="text/javascript" src="js/vendors/leaflet-plugins/leaflet-omnivore.js"></script>
+        <script type="text/javascript" src="js/vendors/iso8601.js"></script>
+
+        <script type="text/javascript" src="../src/leaflet.timedimension.js"></script>
+        <script type="text/javascript" src="../src/leaflet.timedimension.util.js"></script>
+        <script type="text/javascript" src="../src/leaflet.timedimension.layer.js"></script>
+        <script type="text/javascript" src="../src/leaflet.timedimension.layer.wms.js"></script>
+        <script type="text/javascript" src="../src/leaflet.timedimension.layer.geojson.js"></script>
+        <script type="text/javascript" src="../src/leaflet.timedimension.player.js"></script>
+        <script type="text/javascript" src="../src/leaflet.timedimension.control.js"></script>
+        <script type="text/javascript" src="js/baselayers.js"></script>
+        <script type="text/javascript" src="js/vendors/DateFormat.js"></script>
+        <script type="text/javascript" src="js/vendors/iso8601.js"></script>
+
+        <script type="text/javascript" src="js/vendors/leaflet-plugins/NonTiledLayer.js"></script>
+        <script type="text/javascript" src="js/vendors/leaflet-plugins/NonTiledLayer.WMS.js"></script>
+        <script type="text/javascript" src="js/vendors/jquery.datetimepicker.full.min.js"></script>
+
+        <script type="text/javascript" src="data/sailboat.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+
+    </body>
+</html>
