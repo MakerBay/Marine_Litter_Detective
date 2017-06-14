@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="drifter">
+<metadata>
+<author>
+<link ></link></author>
+<copyright ></copyright>
+<link href="connect.garmin.com">
+<text>drifter  data</text></link>
+<time>2017-06-14T10:17:34Z</time></metadata>
+<trk>
+<name>Xavier track</name>
+<link ></link>
+<trkseg>
+<trkpt lat="22.2949" lon="114.234">
+<ele>1234</ele>
+<time>2017-06-10T11:53:38Z</time>
+<link ></link></trkpt>
+<trkpt lat="22.2946" lon="114.234">
+<ele>1234</ele>
+<time>2017-06-10T12:06:53Z</time>
+<link ></link></trkpt>
+<trkpt lat="22.2955" lon="114.237">
+<ele>1234</ele>
+<time>2017-06-10T15:54:16Z</time>
+<link ></link></trkpt>
+<trkpt lat="22.3107" lon="114.229">
+<ele>1234</ele>
+<time>2017-06-10T16:07:05Z</time>
+<link ></link></trkpt></trkseg></trk></gpx>
