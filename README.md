@@ -1,10 +1,11 @@
 # Marine Litter Detective
 
 Do you know where marine litter comes from?  A lot of litter generated on land actually ends up in the ocean, but how? WWF-Hong Kong, in cooperation with MakerBay, has designed a tracking device to simulate how litter enters the sea through storm drains and rivers, and is working with students from 11 schools to trace the journey of litter. This helps us understand the source of marine litter in Hong Kong and solve the problem together. If you find this device washed onto the shore, please pick it up and contact WWF (pyeung@wwf.org.hk) for collection. This project is sponsored by the Environment and Conservation Fund and the Environmental Campaign Committee of Hong Kong SAR Government.
+![wwf-logo-coconut](https://c1.staticflickr.com/5/4217/35207853011_aef241f200_b.jpg)
 
 
 ![Arduino in coconut](https://c1.staticflickr.com/3/2940/32739309070_780d739c2a_z.jpg)
-![Map of Drifter in HK Waters](https://c2.staticflickr.com/4/3695/32739310090_6fef4b8bc1_z.jpg)
+![Map of Drifter in HK Waters](https://c1.staticflickr.com/5/4237/34527245533_d3cda66284_o.png)
 
 ## Goal
 The goal of the Marine Litter Detective is to deploy more than a 100 GPS tracker devices to: 
