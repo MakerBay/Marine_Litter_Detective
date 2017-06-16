@@ -7,15 +7,15 @@ Do you know where marine litter comes from?  A lot of litter generated on land 
 ![Map of Drifter in HK Waters](https://c2.staticflickr.com/4/3695/32739310090_6fef4b8bc1_z.jpg)
 
 ## Goal
-The goal of the Ocean Trashtrackers is to deploy more than a 100 GPS tracker devices to: 
-- map the movement of trash from the land, into the drain system, into the river system, into the ocean in Hong Kong waters
-- create a map of coastal marine litter, where the trash is coming from, where it is going, how quickly it travels, how frequently the same trash is observed on different beaches, how much of the trash goes in the ocean / gets stranded on the beach and more data 
+The goal of the Marine Litter Detective is to deploy more than a 100 GPS tracker devices to: 
+- Simulate the movement of trash from the land, into the drain system, into the river system, and into the sea of Hong Kong waters
+- Create a map of coastal marine litter, to indicate where the trash comes from, where it goes, how quickly it travels, how frequently the same trash is observed on different beaches, how much of the trash goes in the ocean / gets stranded on the beach and more data 
 - improve ocean current simulations and computer models
 - open hardware and software to enable more costal research and marine litter in the future
 
-Our pririties are to make
+Our priorities are to make
 - <b>reliable</b> GPS tracker fleet that give us frequent updates
-- <b>environmentally friendly</b> electronics and casing (biodegrable)
+- <b>environmentally friendly</b> casing (biodegradable)
 - <b>low cost</b> 2G connected devices to operate in mobile phone range (this is not good for deep sea)
 - <b>simple</b> to build so that hundred of children can build and deploy these sensors, collect data, analyse and share their findings
 
@@ -43,16 +43,13 @@ On the device we are using the Arduino IDE: https://www.arduino.cc/en/main/softw
 ## [Electronics](https://github.com/MakerBay/Trashtracker/tree/master/Electronics)
 ![Electonics](https://c1.staticflickr.com/3/2911/33684464920_3e7cd0a56f_z.jpg)
 
-The device is equiped with an 3.3V arduino pro mini that
+The device is equiped with a 3.3V arduino pro mini
 
-## [Coconut](https://github.com/MakerBay/Trashtracker/tree/master/Coconut)
-![supermarket coconut](https://c1.staticflickr.com/1/743/32590198664_fbb815bce5_z.jpg)
+## [Casing](https://github.com/MakerBay/Trashtracker/tree/master/Coconut)
 
-We are trying to get our electronics are "eco" as possible, so the housing of our electronics is
-- Coconut shell: for protection against impact
-- Recycled cork chips: for flotation
-- Wax / Paraffin: to make the electronics fully waterproofed
-- Bicycle tyres (vulcanised rubber): to keep device closed
+We are trying to get our electronics as "eco" as possible, so the housing of our electronics is mainly composed of
+- Wax / Paraffin: to make the electronics fully waterproof and float 
+- Tissue paper: to enhance the wax structure with the fibres to make it stronger 
 
 <hr>
 
@@ -61,7 +58,7 @@ We are trying to get our electronics are "eco" as possible, so the housing of ou
 - [MakerBay](https://www.makerbay.org)
 
 ## Team
-- Patrick Yeung [WWF] pyeung@wwf.org.hk
+- Patrick Yeung [WWF] +852 2161 9698, pyeung@wwf.org.hk
 - Cesar Jung-Harada [MakerBay] +852 9610 7593, contact@cesarharada.com, https://github.com/cesarharada
 - Eddie Yung [MakerBay] eddieyung2006@gmail.com, https://github.com/fisher4668
 - Rohak Singhal [MakerBay] rohaksinghal14@gmail.com, https://github.com/krohak
@@ -83,18 +80,5 @@ Special thanks to
 ## Locations of launch
 ![Classes Locations](https://c2.staticflickr.com/4/3945/34068780145_6b6453739d_z.jpg)
 
-
-## [Classes Run Down](https://github.com/MakerBay/Trashtracker/tree/master/Classes)
-![Classes Kits](https://c2.staticflickr.com/4/3763/33049914560_2f45c87649_z.jpg)
-
-- 11 Schools in Hong Kong all over the territory
-- 120 Devices
-- 10 devices per schools
-- 1 device per 2 to 3 students
-
-- 30 mins - Summary of last survey. recap on marine litter. Value on citizen science and the project (students will have another workshop in advanced to know about marine litter)
-- 30 mins - introduction GPS tracking system
-- 1-1.5hours - build (depends on how much we want students to be involved)
-- 1.5 hour - Launch (including travelling time)
-- 30-45mins -data collection and estimation of route
-- 30 mins - wrap up So it would be around 5 hours . Rundown is not fixed at the moment so we can discuss to modify it
+11 Schools in Hong Kong all over the territory to launch at rivers and drains in 11 different areas
+TTotally 110 Devices will be deployed (10 devices per schools, 1 device per 2 to 3 students)
