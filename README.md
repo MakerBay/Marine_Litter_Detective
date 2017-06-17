@@ -84,4 +84,4 @@ Special thanks to
 ![Classes Locations](https://c2.staticflickr.com/4/3945/34068780145_6b6453739d_z.jpg)
 
 11 Schools in Hong Kong all over the territory to launch at rivers and drains in 11 different areas
-TTotally 110 Devices will be deployed (10 devices per schools, 1 device per 2 to 3 students)
+Totally 110 Devices will be deployed (10 devices per schools, 1 device per 2 to 3 students)
