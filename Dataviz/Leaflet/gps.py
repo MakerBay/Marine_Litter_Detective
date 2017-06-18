@@ -1,27 +1,35 @@
 import gpxpy
 import datetime
 import MySQLdb
+import genjs
+import os
+import time as tim
+
+ID=50004
+flag=0
 
 time_file=open('time','r+')
 time=time_file.readline()
 time_file.seek(0)
 time_file.truncate()
-next_time=datetime.datetime.strftime(datetime.datetime.now(),'<%Y-%m-%d %H:%M:%S>')
+cur=tim.time()
+os.environ["TZ"]="Asia/Hong_Kong"
+next_time=tim.strftime('<%Y-%m-%d %H:%M:%S>', tim.localtime(cur))
 time_file.write(str(next_time))
 time_file.close()
 
-db=MySQLdb.connect(host="HOST",user="USER",passwd="PASSWORD")
+db=MySQLdb.connect(ACCOUNT INFO)
 
 
 cur = db.cursor()
 
-cur.execute("SHOW TABLES FROM ____")
+cur.execute("SHOW TABLES FROM ______")
 
-cur.execute("SELECT DISTINCT Device_ID FROM _________")
+cur.execute("SELECT DISTINCT Device_ID FROM ________")
 for row in cur.fetchall():
  if(row[0]!=0 and row[0]!=24465):
     ID=int(row[0])
-    cur.execute("SELECT Lat,Longi,Battery,locTime FROM _________ WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
+    cur.execute("SELECT Lat,Longi,Battery,locTime FROM _______ WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
 
     gpx_file=""
 
@@ -47,6 +55,7 @@ for row in cur.fetchall():
         gpx_file.writelines("<trkseg></trkseg></trk></gpx>")
         gpx_file.close()
         gpx_file = open('Device_%s.gpx'%(ID), 'r+')
+        flag=1
 
 
     gpx = gpxpy.parse(gpx_file)
@@ -61,7 +70,7 @@ for row in cur.fetchall():
     for track in gpx.tracks:
      name=track.name
      if(name=="Xavier track"):
-      print "ok"
+      print "%s - ok"%ID
       for segment in track.segments:
        #print segment.points
        try:
@@ -75,3 +84,7 @@ for row in cur.fetchall():
     gpx_file.close()
 
 db.close()
+
+if(flag==1):
+    genjs.run()
+
