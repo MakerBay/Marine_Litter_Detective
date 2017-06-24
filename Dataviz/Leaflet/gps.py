@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import gpxpy
 import datetime
 import MySQLdb
@@ -12,24 +13,25 @@ time_file=open('time','r+')
 time=time_file.readline()
 time_file.seek(0)
 time_file.truncate()
+#next_time=datetime.datetime.strftime(datetime.datetime.now(),'<%Y-%m-%d %H:%M:%S>')
 cur=tim.time()
 os.environ["TZ"]="Asia/Hong_Kong"
 next_time=tim.strftime('<%Y-%m-%d %H:%M:%S>', tim.localtime(cur))
 time_file.write(str(next_time))
 time_file.close()
 
-db=MySQLdb.connect(ACCOUNT INFO)
+db=MySQLdb.connect(CREDENTIALS)
 
 
 cur = db.cursor()
 
-cur.execute("SHOW TABLES FROM ______")
+cur.execute("SHOW TABLES FROM ____")
 
-cur.execute("SELECT DISTINCT Device_ID FROM ________")
+cur.execute("SELECT DISTINCT _____")
 for row in cur.fetchall():
- if(row[0]!=0 and row[0]!=24465):
+ if(row[0]!=0 and row[0]!=24465 and row[0]!=10103 and row[0]!=10211 and row[0]!=1634543477 and row[0]!=50008 and row[0]!=50005):
     ID=int(row[0])
-    cur.execute("SELECT Lat,Longi,Battery,locTime FROM _______ WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
+    cur.execute("SELECT Lat,Longi,Battery,locTime FROM ______ WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
 
     gpx_file=""
 
@@ -40,7 +42,7 @@ for row in cur.fetchall():
         print "gpx file does not exist, creating file"
         gpx_file = open('Device_%s.gpx'%(ID), 'w+')
         gpx_file.writelines("<?xml version='1.0' encoding='UTF-8'?>\n")
-        gpx_file.writelines("<gpx version='1.1' creator='drifter'\n")
+        gpx_file.writelines("<gpx version='1.1' creator='164400722,Waterford_CT_High,1.0,Oconner,164400722,1366976' data='164400722,Waterford_CT_High,1.0,Oconner,164400722,1366976'\n")
         gpx_file.writelines("xmlns='http://www.topografix.com/GPX/1/1'\n")
         gpx_file.writelines("xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'\n")
         gpx_file.writelines("xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>\n")

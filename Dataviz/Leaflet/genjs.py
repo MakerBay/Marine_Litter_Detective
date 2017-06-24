@@ -1,6 +1,19 @@
 import glob
 import datetime
 import os
+import linecache
+
+def popupdrif(popup,starttime):
+    if float(popup[2])>1.01:
+            return '    Drougued drifter  <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> Depth : '+popup[2]+'m <br> starts at '+starttime
+    else:
+            return '    Surface drifter   <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> starts at '+starttime
+def popupstart(popup,starttime):
+    if float(popup[2])>1.01:
+            return '    Drougued drifter Deployed here   <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> Depth : '+popup[2]+'m <br> starts at '+starttime
+    else:
+            return '    Surface drifter Deployed here  <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]  +'<br> starts at '+starttime
+
 
 def run():
     filename='drifter.js'
@@ -75,13 +88,20 @@ def run():
 
     for i in range(len(data)):
 
+        latlon=[linecache.getline(data[i], 14).split('"')[1],linecache.getline(data[i], 14).split('"')[3]]
+        starttime=linecache.getline(data[i], 16)[6:-8]
+        #latlon=[39.86255,71.11939]
+        #starttime=''
+        #popup='164400722,Waterford_CT_High,1.0,Oconner,164400722,136697'
+
+        popup=linecache.getline(data[i],2).split('"')[9].split(',')
         f.write('''
     var icon'''+data[i][0:-4]+''' = new L.icon({
     iconUrl: 'img/starticon.png',
     iconSize: [20, 15],
 
     });
-    var marker'''+data[i][0:-4]+'''=L.marker([43.21107,-70.07996], {icon: icon'''+data[i][0:-4]+'''}).bindPopup("");
+    var marker'''+data[i][0:-4]+'''=L.marker(['''+str(latlon[0])+''','''+ str(latlon[1])+'''], {icon: icon'''+data[i][0:-4]+'''}).bindPopup("'''+popupstart(popup,starttime)+'''");
     var myStyle'''+data[i][0:-4]+''' = {
     "color": "'''+hexcolor[i%len(hexcolor)]+'''",
     "weight": 2,
@@ -106,7 +126,7 @@ def run():
         return L.circleMarker(latLng,geojsonMarkerOptions'''+data[i][0:-4]+''');
     },
      onEachFeature: function (feature,layer) {
-        layer.bindPopup("")
+        layer.bindPopup("'''+popupdrif(popup,starttime)+'''")
     }});
     var gpxLayer'''+data[i][0:-4]+''' = omnivore.gpx('data/'''+data[i]+'''', null, customLayer'''+data[i][0:-4]+''').on('ready', function() {
     map.fitBounds(gpxLayer'''+data[i][0:-4]+'''.getBounds(), {
