@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import gpxpy
 import datetime
 import MySQLdb
@@ -27,9 +26,9 @@ cur = db.cursor()
 
 cur.execute("SHOW TABLES FROM ____")
 
-cur.execute("SELECT DISTINCT _____")
+cur.execute("SELECT DISTINCT ___ FROM _________")
 for row in cur.fetchall():
- if(row[0]!=0 and row[0]!=24465 and row[0]!=10103 and row[0]!=10211 and row[0]!=1634543477 and row[0]!=50008 and row[0]!=50005):
+ if(row[0]!=0 and row[0]!=24465 and row[0]!=10211 and row[0]!=1634543477 and row[0]!=10311 and (row[0]!=50005 and row[0]!=10205 and row[0]!=10302 and row[0]!=10304 and row[0]!=10306)):
     ID=int(row[0])
     cur.execute("SELECT Lat,Longi,Battery,locTime FROM ______ WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
 
@@ -42,10 +41,7 @@ for row in cur.fetchall():
         print "gpx file does not exist, creating file"
         gpx_file = open('Device_%s.gpx'%(ID), 'w+')
         gpx_file.writelines("<?xml version='1.0' encoding='UTF-8'?>\n")
-        gpx_file.writelines("<gpx version='1.1' creator='164400722,Waterford_CT_High,1.0,Oconner,164400722,1366976' data='164400722,Waterford_CT_High,1.0,Oconner,164400722,1366976'\n")
-        gpx_file.writelines("xmlns='http://www.topografix.com/GPX/1/1'\n")
-        gpx_file.writelines("xmlns:gpxtpx='http://www.garmin.com/xmlschemas/TrackPointExtension/v1'\n")
-        gpx_file.writelines("xmlns:gpxx='http://www.garmin.com/xmlschemas/GpxExtensions/v3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>\n")
+        gpx_file.writelines("<gpx version='1.1' creator='164400722,Waterford_CT_High,1.0,Oconner,164400722,1366976' data='164400722,Waterford_CT_High,1.0,Oconner,164400722,1366976'\n>")
         gpx_file.writelines("<metadata>\n")
         gpx_file.writelines("<link href='connect.garmin.com'>\n")
         gpx_file.writelines("<text>drifter  data</text>\n")
@@ -77,7 +73,7 @@ for row in cur.fetchall():
        #print segment.points
        try:
         for row in cur.fetchall():
-         if(row[0]>0 and row[1]>0):
+         if(row[0]>10 and row[1]>10):
           Point=(gpxpy.gpx.GPXTrackPoint(longitude=row[1],latitude=row[0],elevation=1234,time=datetime.datetime.strptime(row[3],'<%Y-%m-%d %H:%M:%S>')))
           segment.points.append(Point)
        except Exception as e:
@@ -89,4 +85,3 @@ db.close()
 
 if(flag==1):
     genjs.run()
-

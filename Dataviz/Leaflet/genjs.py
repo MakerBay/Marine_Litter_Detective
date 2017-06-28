@@ -88,13 +88,13 @@ def run():
 
     for i in range(len(data)):
 
-        latlon=[linecache.getline(data[i], 14).split('"')[1],linecache.getline(data[i], 14).split('"')[3]]
-        starttime=linecache.getline(data[i], 16)[6:-8]
-        #latlon=[39.86255,71.11939]
-        #starttime=''
-        #popup='164400722,Waterford_CT_High,1.0,Oconner,164400722,136697'
-
-        popup=linecache.getline(data[i],2).split('"')[9].split(',')
+        try:
+            latlon=[linecache.getline(data[i], 14).split('"')[1],linecache.getline(data[i], 14).split('"')[3]]
+            starttime=linecache.getline(data[i], 16)[6:-8]
+            popup=linecache.getline(data[i],2).split('"')[9].split(',')
+        except Exception,e:
+            print e
+            
         f.write('''
     var icon'''+data[i][0:-4]+''' = new L.icon({
     iconUrl: 'img/starticon.png',
@@ -241,4 +241,3 @@ def run():
     });
     ''')
     f.close()
-
