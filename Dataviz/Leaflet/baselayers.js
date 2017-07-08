@@ -8,11 +8,8 @@ function getCommonBaseLayers(map){
     var bathymetryLayer = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri',
 	maxZoom: 13
-    });*/
-    var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     });
-    /*var Esri_OceanBasemap = L.tileLayer.wms("http://ows.emodnet-bathymetry.eu/wms", {
+    var Esri_OceanBasemap = L.tileLayer.wms("http://ows.emodnet-bathymetry.eu/wms", {
         layers: 'emodnet:mean_atlas_land',
         format: 'image/png',
         transparent: true,
@@ -39,20 +36,25 @@ function getCommonBaseLayers(map){
               attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, ' +
               'NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
           }
-      ).addTo(map);
+      );
 
 
     var HKLayer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       minZoom: 5,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    });
+
+	    var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	 maxZoom: 19,
+            minZoom: 5,
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     }).addTo(map);
 
-
     return {
-        "City basemap":Esri_WorldImagery,
 	"Grey":GreyLayer,
         "HK Ocean":HKLayer,
+	"City basemap":Esri_WorldImagery,
     };
 }
 
