@@ -7,13 +7,18 @@ def popupdrif(popup,starttime):
     if float(popup[2])>1.01:
             return '    Drougued drifter  <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> Depth : '+popup[2]+'m <br> starts at '+starttime
     else:
-            return '    Surface drifter   <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> starts at '+starttime
+            return '    Surface drifter   <br> School/Lab :<br> '+popup[1]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> starts at '+starttime
 def popupstart(popup,starttime):
     if float(popup[2])>1.01:
             return '    Drougued drifter Deployed here   <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> Depth : '+popup[2]+'m <br> starts at '+starttime
     else:
-            return '    Surface drifter Deployed here  <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]  +'<br> starts at '+starttime
+            return '    Surface drifter Deployed here  <br> School/Lab :<br> '+popup[1]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]  +'<br> starts at '+starttime
 
+def ord(num):
+    if(int(num[7:-4])/50000>=1):
+        return 1
+    else:
+        return 2
 
 def run():
     filename='drifter.js'
@@ -21,6 +26,7 @@ def run():
     hexcolor=['#000000','#FF0000','#808080','#000000','#FF0000','#800000','#FFFF00','#808000','#00FF00','#008000','#008080','#0000FF','#000080','#FF00FF','#800080']
     data=glob.glob('*.gpx')
     data.sort()
+    data.sort(key=ord)
 
 
 
@@ -28,9 +34,9 @@ def run():
     startDate.setUTCHours(0, 0, 0, 0);
 
     var map = L.map('map', {
-        zoom: 12,
+        zoom: 11,
         fullscreenControl: true,
-        center: [42, -69]
+        center: [22.3432,114.1130]
     });
 
     // start of TimeDimension manual instantiation
@@ -74,7 +80,7 @@ def run():
 
     $('#dtp_start').datetimepicker({
         inline: true,
-        value: new Date("2017-04-28"),
+        value: new Date("2017-05-23"),
         format: "c"
     });
     $('#dtp_end').datetimepicker({
@@ -94,7 +100,7 @@ def run():
             popup=linecache.getline(data[i],2).split('"')[9].split(',')
         except Exception,e:
             print e
-            
+
         f.write('''
     var icon'''+data[i][0:-4]+''' = new L.icon({
     iconUrl: 'img/starticon.png',
@@ -129,9 +135,7 @@ def run():
         layer.bindPopup("'''+popupdrif(popup,starttime)+'''")
     }});
     var gpxLayer'''+data[i][0:-4]+''' = omnivore.gpx('data/'''+data[i]+'''', null, customLayer'''+data[i][0:-4]+''').on('ready', function() {
-    map.fitBounds(gpxLayer'''+data[i][0:-4]+'''.getBounds(), {
-        paddingBottomRight: [30, 40]
-    });
+
     });
 
     var gpxTimeLayer'''+data[i][0:-4]+''' = L.timeDimension.layer.geoJson(gpxLayer'''+data[i][0:-4]+''', {
@@ -241,3 +245,4 @@ def run():
     });
     ''')
     f.close()
+
