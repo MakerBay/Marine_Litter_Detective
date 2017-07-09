@@ -4,7 +4,7 @@ var startDate = new Date();
     var map = L.map('map', {
         zoom: 11,
         fullscreenControl: true,
-        center: [22.368239, 114.164331]
+        center: [22.3432,114.1130]
     });
 
     // start of TimeDimension manual instantiation
@@ -30,7 +30,9 @@ var startDate = new Date();
         speedStep:     1,
         maxSpeed:      100,
         timeSteps:     20,
-        timeSliderDragUpdate: true
+        timeSliderDragUpdate: true,
+        loopButton: true,
+        limitSliders: true,
     };
 
     var timeDimensionControl = new L.Control.TimeDimension(timeDimensionControlOptions);
@@ -53,7 +55,7 @@ var startDate = new Date();
     });
     $('#dtp_end').datetimepicker({
         inline: true,
-        value: new Date("2017-07-08"),
+        value: new Date(),
         format: "c"
     });
 
@@ -99,6 +101,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    updateTimeDimension: true,
     });
     var gpxaddmarkerDevice_50001 =L.layerGroup([markerDevice_50001,gpxTimeLayerDevice_50001]);
 
@@ -143,6 +146,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_50002 =L.layerGroup([markerDevice_50002,gpxTimeLayerDevice_50002]);
 
@@ -187,6 +191,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_50003 =L.layerGroup([markerDevice_50003,gpxTimeLayerDevice_50003]);
 
@@ -231,6 +236,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_50004 =L.layerGroup([markerDevice_50004,gpxTimeLayerDevice_50004]);
 
@@ -275,6 +281,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_50006 =L.layerGroup([markerDevice_50006,gpxTimeLayerDevice_50006]);
 
@@ -319,6 +326,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_50007 =L.layerGroup([markerDevice_50007,gpxTimeLayerDevice_50007]);
 
@@ -363,6 +371,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_50009 =L.layerGroup([markerDevice_50009,gpxTimeLayerDevice_50009]);
 
@@ -407,6 +416,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10101 =L.layerGroup([markerDevice_10101,gpxTimeLayerDevice_10101]);
 
@@ -451,6 +461,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10102 =L.layerGroup([markerDevice_10102,gpxTimeLayerDevice_10102]);
 
@@ -495,6 +506,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10103 =L.layerGroup([markerDevice_10103,gpxTimeLayerDevice_10103]);
 
@@ -539,6 +551,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10104 =L.layerGroup([markerDevice_10104,gpxTimeLayerDevice_10104]);
 
@@ -583,6 +596,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10105 =L.layerGroup([markerDevice_10105,gpxTimeLayerDevice_10105]);
 
@@ -627,6 +641,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10106 =L.layerGroup([markerDevice_10106,gpxTimeLayerDevice_10106]);
 
@@ -671,6 +686,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10107 =L.layerGroup([markerDevice_10107,gpxTimeLayerDevice_10107]);
 
@@ -715,6 +731,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10108 =L.layerGroup([markerDevice_10108,gpxTimeLayerDevice_10108]);
 
@@ -759,6 +776,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10109 =L.layerGroup([markerDevice_10109,gpxTimeLayerDevice_10109]);
 
@@ -803,6 +821,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10110 =L.layerGroup([markerDevice_10110,gpxTimeLayerDevice_10110]);
 
@@ -847,6 +866,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10201 =L.layerGroup([markerDevice_10201,gpxTimeLayerDevice_10201]);
 
@@ -891,6 +911,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10202 =L.layerGroup([markerDevice_10202,gpxTimeLayerDevice_10202]);
 
@@ -935,6 +956,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10203 =L.layerGroup([markerDevice_10203,gpxTimeLayerDevice_10203]);
 
@@ -979,6 +1001,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10204 =L.layerGroup([markerDevice_10204,gpxTimeLayerDevice_10204]);
 
@@ -1023,6 +1046,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10206 =L.layerGroup([markerDevice_10206,gpxTimeLayerDevice_10206]);
 
@@ -1067,6 +1091,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10207 =L.layerGroup([markerDevice_10207,gpxTimeLayerDevice_10207]);
 
@@ -1111,6 +1136,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10208 =L.layerGroup([markerDevice_10208,gpxTimeLayerDevice_10208]);
 
@@ -1155,6 +1181,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10209 =L.layerGroup([markerDevice_10209,gpxTimeLayerDevice_10209]);
 
@@ -1199,6 +1226,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10210 =L.layerGroup([markerDevice_10210,gpxTimeLayerDevice_10210]);
 
@@ -1243,6 +1271,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10301 =L.layerGroup([markerDevice_10301,gpxTimeLayerDevice_10301]);
 
@@ -1287,6 +1316,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10303 =L.layerGroup([markerDevice_10303,gpxTimeLayerDevice_10303]);
 
@@ -1331,6 +1361,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10305 =L.layerGroup([markerDevice_10305,gpxTimeLayerDevice_10305]);
 
@@ -1375,6 +1406,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10306 =L.layerGroup([markerDevice_10306,gpxTimeLayerDevice_10306]);
 
@@ -1419,6 +1451,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10307 =L.layerGroup([markerDevice_10307,gpxTimeLayerDevice_10307]);
 
@@ -1463,6 +1496,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10308 =L.layerGroup([markerDevice_10308,gpxTimeLayerDevice_10308]);
 
@@ -1507,6 +1541,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10309 =L.layerGroup([markerDevice_10309,gpxTimeLayerDevice_10309]);
 
@@ -1551,6 +1586,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10310 =L.layerGroup([markerDevice_10310,gpxTimeLayerDevice_10310]);
 
@@ -1595,6 +1631,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10401 =L.layerGroup([markerDevice_10401,gpxTimeLayerDevice_10401]);
 
@@ -1639,6 +1676,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10402 =L.layerGroup([markerDevice_10402,gpxTimeLayerDevice_10402]);
 
@@ -1683,6 +1721,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10403 =L.layerGroup([markerDevice_10403,gpxTimeLayerDevice_10403]);
 
@@ -1727,6 +1766,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10404 =L.layerGroup([markerDevice_10404,gpxTimeLayerDevice_10404]);
 
@@ -1771,6 +1811,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10406 =L.layerGroup([markerDevice_10406,gpxTimeLayerDevice_10406]);
 
@@ -1815,6 +1856,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10407 =L.layerGroup([markerDevice_10407,gpxTimeLayerDevice_10407]);
 
@@ -1859,6 +1901,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10408 =L.layerGroup([markerDevice_10408,gpxTimeLayerDevice_10408]);
 
@@ -1903,6 +1946,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10409 =L.layerGroup([markerDevice_10409,gpxTimeLayerDevice_10409]);
 
@@ -1947,6 +1991,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10410 =L.layerGroup([markerDevice_10410,gpxTimeLayerDevice_10410]);
 
@@ -1991,6 +2036,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10501 =L.layerGroup([markerDevice_10501,gpxTimeLayerDevice_10501]);
 
@@ -2035,6 +2081,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10503 =L.layerGroup([markerDevice_10503,gpxTimeLayerDevice_10503]);
 
@@ -2079,6 +2126,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10504 =L.layerGroup([markerDevice_10504,gpxTimeLayerDevice_10504]);
 
@@ -2123,6 +2171,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10505 =L.layerGroup([markerDevice_10505,gpxTimeLayerDevice_10505]);
 
@@ -2167,6 +2216,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10506 =L.layerGroup([markerDevice_10506,gpxTimeLayerDevice_10506]);
 
@@ -2211,6 +2261,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10507 =L.layerGroup([markerDevice_10507,gpxTimeLayerDevice_10507]);
 
@@ -2255,6 +2306,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10508 =L.layerGroup([markerDevice_10508,gpxTimeLayerDevice_10508]);
 
@@ -2299,6 +2351,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10509 =L.layerGroup([markerDevice_10509,gpxTimeLayerDevice_10509]);
 
@@ -2343,6 +2396,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10510 =L.layerGroup([markerDevice_10510,gpxTimeLayerDevice_10510]);
 
@@ -2387,6 +2441,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10601 =L.layerGroup([markerDevice_10601,gpxTimeLayerDevice_10601]);
 
@@ -2431,6 +2486,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10602 =L.layerGroup([markerDevice_10602,gpxTimeLayerDevice_10602]);
 
@@ -2475,6 +2531,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10603 =L.layerGroup([markerDevice_10603,gpxTimeLayerDevice_10603]);
 
@@ -2519,6 +2576,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10604 =L.layerGroup([markerDevice_10604,gpxTimeLayerDevice_10604]);
 
@@ -2563,6 +2621,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10605 =L.layerGroup([markerDevice_10605,gpxTimeLayerDevice_10605]);
 
@@ -2607,6 +2666,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10606 =L.layerGroup([markerDevice_10606,gpxTimeLayerDevice_10606]);
 
@@ -2651,6 +2711,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10607 =L.layerGroup([markerDevice_10607,gpxTimeLayerDevice_10607]);
 
@@ -2695,6 +2756,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10608 =L.layerGroup([markerDevice_10608,gpxTimeLayerDevice_10608]);
 
@@ -2739,6 +2801,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10609 =L.layerGroup([markerDevice_10609,gpxTimeLayerDevice_10609]);
 
@@ -2783,6 +2846,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10610 =L.layerGroup([markerDevice_10610,gpxTimeLayerDevice_10610]);
 
@@ -2827,6 +2891,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10701 =L.layerGroup([markerDevice_10701,gpxTimeLayerDevice_10701]);
 
@@ -2871,6 +2936,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10702 =L.layerGroup([markerDevice_10702,gpxTimeLayerDevice_10702]);
 
@@ -2915,6 +2981,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10703 =L.layerGroup([markerDevice_10703,gpxTimeLayerDevice_10703]);
 
@@ -2959,6 +3026,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10704 =L.layerGroup([markerDevice_10704,gpxTimeLayerDevice_10704]);
 
@@ -3003,6 +3071,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10705 =L.layerGroup([markerDevice_10705,gpxTimeLayerDevice_10705]);
 
@@ -3047,6 +3116,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10706 =L.layerGroup([markerDevice_10706,gpxTimeLayerDevice_10706]);
 
@@ -3091,6 +3161,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10707 =L.layerGroup([markerDevice_10707,gpxTimeLayerDevice_10707]);
 
@@ -3135,6 +3206,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10708 =L.layerGroup([markerDevice_10708,gpxTimeLayerDevice_10708]);
 
@@ -3179,6 +3251,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10709 =L.layerGroup([markerDevice_10709,gpxTimeLayerDevice_10709]);
 
@@ -3223,6 +3296,7 @@ var startDate = new Date();
 
     addlastPoint: true,
     waitForReady: true,
+    
     });
     var gpxaddmarkerDevice_10710 =L.layerGroup([markerDevice_10710,gpxTimeLayerDevice_10710]);
 

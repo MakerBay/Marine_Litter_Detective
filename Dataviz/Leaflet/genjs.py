@@ -62,7 +62,9 @@ def run():
         speedStep:     1,
         maxSpeed:      100,
         timeSteps:     20,
-        timeSliderDragUpdate: true
+        timeSliderDragUpdate: true,
+        loopButton: true,
+        limitSliders: true,
     };
 
     var timeDimensionControl = new L.Control.TimeDimension(timeDimensionControlOptions);
@@ -85,7 +87,7 @@ def run():
     });
     $('#dtp_end').datetimepicker({
         inline: true,
-        value: new Date("'''+datetime.datetime.now().strftime("%Y-%m-%d")+'''"),
+        value: new Date(),
         format: "c"
     });
 
@@ -142,6 +144,9 @@ def run():
 
     addlastPoint: true,
     waitForReady: true,
+    '''
+    + ("updateTimeDimension: true," if (data[i][0:-4]=="Device_50001") else "") +
+    '''
     });
     var gpxaddmarker'''+data[i][0:-4]+''' =L.layerGroup([marker'''+data[i][0:-4]+''',gpxTimeLayer'''+data[i][0:-4]+''']);
 
