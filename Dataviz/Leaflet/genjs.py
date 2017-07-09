@@ -36,7 +36,7 @@ def run():
     var map = L.map('map', {
         zoom: 11,
         fullscreenControl: true,
-        center: [22.3432,114.1130]
+        center: [22.37,114.19]
     });
 
     // start of TimeDimension manual instantiation
