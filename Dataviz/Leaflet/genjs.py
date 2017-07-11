@@ -2,17 +2,18 @@ import glob
 import datetime
 import os
 import linecache
+import gpxinfo
 
-def popupdrif(popup,starttime):
+def popupdrif(popup,starttime,stats):
     if float(popup[2])>1.01:
             return '    Drougued drifter  <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> Depth : '+popup[2]+'m <br> starts at '+starttime
     else:
-            return '    Surface drifter   <br> School/Lab :<br> '+popup[1]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> starts at '+starttime
-def popupstart(popup,starttime):
+            return '    Surface Drifter   <br> School/Lab :<br> '+popup[1]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment ID : '+popup[4]+ '<br>' + str(stats[3]) + '<br>' + str(stats[4]) + '<br>' + str(stats[1]) + '<br>' + str(stats[2]) + '<br>' + str(stats[5]) + '<br>' + str(stats[0]) + '<br>' + str(stats[6])
+def popupstart(popup,starttime,stats):
     if float(popup[2])>1.01:
-            return '    Drougued drifter Deployed here   <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> Depth : '+popup[2]+'m <br> starts at '+starttime
+            return '    Drougued drifter deployed here   <br> School/Lab :<br> '+popup[1][:popup[1].find('(')]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]+'<br> Depth : '+popup[2]+'m <br> starts at '+starttime
     else:
-            return '    Surface drifter Deployed here  <br> School/Lab :<br> '+popup[1]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment_ ID : '+popup[4]+'<br> ESN :'+popup[5]  +'<br> starts at '+starttime
+            return '    Surface Drifter deployed here  <br> School/Lab :<br> '+popup[1]+'<br> Teacher/PI : '+popup[3]+'<br> Deployment ID : '+popup[4]+ '<br>' + str(stats[3]) + '<br>' + str(stats[4]) + '<br>' + str(stats[1]) + '<br>' + str(stats[2]) + '<br>' + str(stats[5]) + '<br>' + str(stats[0]) + '<br>' + str(stats[6])
 
 def ord(num):
     if(int(num[7:-4])/50000>=1):
@@ -34,11 +35,12 @@ def run():
     startDate.setUTCHours(0, 0, 0, 0);
 
     var map = L.map('map', {
-        zoom: 11,
+        //zoom: 11,
         fullscreenControl: true,
-        center: [22.37,114.19]
+        //center: [22.37,114.19]
     });
 
+	map.fitBounds([[22.505614, 113.805324],[22.212772, 114.521176]]);
     // start of TimeDimension manual instantiation
     var timeDimension = new L.TimeDimension({
             period: "PT5M",
@@ -100,6 +102,7 @@ def run():
             latlon=[linecache.getline(data[i], 14).split('"')[1],linecache.getline(data[i], 14).split('"')[3]]
             starttime=linecache.getline(data[i], 16)[6:-8]
             popup=linecache.getline(data[i],2).split('"')[9].split(',')
+            stats=gpxinfo.run([data[i]])
         except Exception,e:
             print e
 
@@ -109,7 +112,7 @@ def run():
     iconSize: [20, 15],
 
     });
-    var marker'''+data[i][0:-4]+'''=L.marker(['''+str(latlon[0])+''','''+ str(latlon[1])+'''], {icon: icon'''+data[i][0:-4]+'''}).bindPopup("'''+popupstart(popup,starttime)+'''");
+    var marker'''+data[i][0:-4]+'''=L.marker(['''+str(latlon[0])+''','''+ str(latlon[1])+'''], {icon: icon'''+data[i][0:-4]+'''}).bindPopup("'''+popupstart(popup,starttime,stats)+'''");
     var myStyle'''+data[i][0:-4]+''' = {
     "color": "'''+hexcolor[i%len(hexcolor)]+'''",
     "weight": 2,
@@ -134,7 +137,7 @@ def run():
         return L.circleMarker(latLng,geojsonMarkerOptions'''+data[i][0:-4]+''');
     },
      onEachFeature: function (feature,layer) {
-        layer.bindPopup("'''+popupdrif(popup,starttime)+'''")
+        layer.bindPopup("'''+popupdrif(popup,starttime,stats)+'''")
     }});
     var gpxLayer'''+data[i][0:-4]+''' = omnivore.gpx('data/'''+data[i]+'''', null, customLayer'''+data[i][0:-4]+''').on('ready', function() {
 
