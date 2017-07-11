@@ -2,10 +2,22 @@
 <html>
 
 <head>
-  <title>Marine Litter Detective</title>
+  <title>WWF Marine Litter Detective</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="description" content="Leaflet data visualization map for WWF Hong Kong & MakerBay designed Electronic, Arduino drifters to track litter entering the sea through drains & rivers">
+
+	<meta property="og:title" content="WWF Marine Litter Detective" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Leaflet data visualization map for WWF Hong Kong & MakerBay designed Electronic  Arduino drifters to track litter entering the sea through drains & rivers"/>
+		<meta property="og:url" content="http://makerbench.org/NOAA/leaflet/examples/drifter.html" />
+		<meta property="og:image" content="http://makerbench.org/NOAA/leaflet/examples/img/drifter.jpg"/>
+		<meta property="og:image:width" content="200" />
+		<meta property="og:image:height" content="200" />
+		<meta property="fb:app_id" content="1938550083025133"/>
+
+
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="-1">
   <meta http-equiv="CACHE-CONTROL" content=”NO-CACHE”>
@@ -22,6 +34,17 @@
 </head>
 
 <body>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=1938550083025133";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="container-fluid">
 <div id="header" class="row text-center">
       <div class="col-md-2 col-md-offset-2 logo-left img-responsive hidden-sm hidden-xs"></div>
@@ -72,7 +95,7 @@
       <p>
         <center>Do you know where marine litter comes from? <br>A lot of litter generated on land actually ends up in the ocean, but how? </center><br></p>
       <p>WWF-Hong Kong, in cooperation with MakerBay, has designed a tracking device to simulate how litter enters the sea through storm drains and rivers, and is working with students from 11 schools to trace the journey of litter. This helps us understand
-        the source of marine litter in Hong Kong and solve the problem together. If you find <a class="slb " src="img/drifter.jpg" alt="this">this</a> device washed onto the shore, please pick it up and contact WWF (pyeung@wwf.org.hk) for collection.
+        the source of marine litter in Hong Kong and solve the problem together. If you find <a class="slb " src="img/drifter.jpg" alt="WWF Marine Litter Drifter">this</a> device washed onto the shore, please pick it up and contact WWF (pyeung@wwf.org.hk) for collection.
       </p>
       <ul>
         <li>21st Jun (9:00-16:00) - Tsang Pik Shan Secondary School</li>
@@ -93,12 +116,20 @@
       </p>
 
 
-
     </div>
-    <div class="col-xs-1 col-md-1"></div>
+	<div class="col-xs-1 col-md-1"></div>
   </div>
 
-  <pre><code class="javascript" id="code"></code></pre>
+  <pre><code class="javascript" id="code"><center><div class="fb-like" data-href="http://makerbench.org/NOAA/leaflet/examples/drifter.html" data-layout="button_count" data-size="small" data-show-faces="true" data-share="true" data-mobile-iframe="true"></div></center></code></pre>
+
+	<div class="row">
+	<div class="col-md-1"></div>
+	<center><div class="col-xs-12 col-sm-12 col-md-4 fb-page" data-href="https://www.facebook.com/wwfhongkong/" data-tabs="timeline" data-height="70" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/wwfhongkong/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wwfhongkong/">WWF Hong Kong</a></blockquote></div></center> 
+	<div class="col-md-2"></div>
+	<center><div class="col-xs-12 col-sm-12 col-md-4 fb-page" data-href="https://www.facebook.com/makerbay/" data-tabs="timeline" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/makerbay/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/makerbay/">MakerBay</a></blockquote></div></center>
+	</div>
+	
+
   <div class="disclaimer">
     <center> Credits and great thanks to : Patrick Yeung, Nicole Lam [WWF] and the Marine Litter Detective Team [Cesar Jung-Harada, Rohak Singhal (MakerBay), Eddie Yung (Green Orange)],<br> Michael CY CHENG (INDEPENDENT), Shuyang [Seeed Studio],"Student Drifter
       Program" Prof James Manning[NOAA] and Xavier Huanxin Xu [NOAA], Tom Chi, Jie Qi [MIT], Cy Keener [Stanford University].</center>

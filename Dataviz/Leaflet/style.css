@@ -25,13 +25,14 @@ body {
 
 .logo-left {
   content: url(../img/drifticon.png);
-  height: 90px;
+  padding-top: 5px;
+  height: 70px;
   width: auto;
 }
 
 .logo-right {
   content: url(../img/makerbaylogo.png);
-  height: 90px;
+  height: 80px;
   width: auto;
 }
 
