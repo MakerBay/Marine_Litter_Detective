@@ -19,18 +19,19 @@ next_time=tim.strftime('<%Y-%m-%d %H:%M:%S>', tim.localtime(cur))
 time_file.write(str(next_time))
 time_file.close()
 
-db=MySQLdb.connect()
-
+db=MySQLdb.connect(dB1)
+#db=MySQLdb.connect(dB2)
 
 cur = db.cursor()
 
 cur.execute("SHOW TABLES FROM ____")
+#cur.execute("SHOW TABLES FROM _____")
 
-cur.execute("SELECT DISTINCT Device_ID FROM ___")
+cur.execute("SELECT DISTINCT Device_ID FROM ______")
 for row in cur.fetchall():
- if(row[0]!=0 and row[0]!=24465 and row[0]!=10211 and row[0]!=1634543477 and row[0]!=10311 and (row[0]!=50005 and row[0]!=10205 and row[0]!=50008 and row[0]!=10302 and row[0]!=10304 and row[0]!=10405)):
+ if(row[0]!=0 and row[0]!=24465 and row[0]!=10211 and row[0]!=1634543477 and row[0]!=10311 and (row[0]!=50005 and row[0]!=10205 and row[0]!=50008 and row[0]!=10302 and row[0]!=10304 and row[0]!=10405 and row[0]!=10406 and row[0]!=10306 and row[0]!=50003 and row[0]!=10101 and row[0]!=10901 and row[0]!=10902 and row[0]!=10801 and row[0]!=10802 and row[0]!=10808 and row[0]!=10809)):
     ID=int(row[0])
-    cur.execute("SELECT Lat,Longi,Battery,locTime FROM ____ WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
+    cur.execute("SELECT Lat,Longi,Battery,locTime FROM ______ WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
 
     school="___"
     teacher="___"
@@ -49,7 +50,7 @@ for row in cur.fetchall():
     elif(row[0]>10700 and row[0]<10800):
         school="HKSKH Bishop Hall Secondary School"
     elif(row[0]>10800 and row[0]<10900):
-        school="True Light Girls' College"
+        school="True Light Girls College"
     elif(row[0]>10900 and row[0]<11000):
         school="Buddhist Mau Fung Memorial College"
     elif(row[0]>11000 and row[0]<11100):
