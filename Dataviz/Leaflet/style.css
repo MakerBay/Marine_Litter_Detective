@@ -396,3 +396,12 @@ ul.examples li a img {
   font-size: 0.9em;
   padding: 5px;
 }
+
+
+.google-button
+{
+position: relative;
+left:-122px;
+height: 0px;
+top: 1px;
+}
