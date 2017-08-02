@@ -13,13 +13,13 @@ Do you know where marine litter comes from?  A lot of litter generated on land 
 The goal of the Marine Litter Detective is to deploy more than a 100 GPS tracker devices to: 
 - Simulate the movement of trash from the land, into the drain system, into the river system, and into the sea of Hong Kong waters
 - Create a map of coastal marine litter, to indicate where the trash comes from, where it goes, how quickly it travels, how frequently the same trash is observed on different beaches, how much of the trash goes in the ocean / gets stranded on the beach and more data 
-- improve ocean current simulations and computer models
-- open hardware and software to enable more costal research and marine litter in the future
+- Improve ocean current simulations and computer models
+- Open hardware and software to enable more costal research and marine litter in the future
 
 Our priorities are to make
-- <b>reliable</b> GPS tracker fleet that give us frequent updates
+- <b>reliable</b> GPS tracker fleets that give us frequent updates
 - <b>environmentally friendly</b> casing (biodegradable)
-- <b>low cost</b> 2G connected devices to operate in mobile phone range (this is not good for deep sea)
+- <b>low cost</b> 2G connected devices to operate in mobile phone range (good for coastal waters)
 - <b>simple</b> to build so that hundred of children can build and deploy these sensors, collect data, analyse and share their findings
 
 <hr>
