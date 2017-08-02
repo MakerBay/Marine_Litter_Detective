@@ -3,6 +3,7 @@
 
 <head>
   <title>WWF Marine Litter Detective</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -72,11 +73,14 @@
 
   <div class="container-fluid">
     <div id="header" class="row text-center">
+	<div class="col-md-10 col-md-offset-2 hidden-sm hidden-xs" align="left">資助機構Sponsored By</div>
       <div class="col-md-2 col-md-offset-2 logo-left img-responsive hidden-sm hidden-xs"></div>
-      <div class="col-md-4 col-md-offset-1">
+	<div class="col-md-2 logo-left2 img-responsive hidden-sm hidden-xs"></div>
+      <div class="col-md-3 ">
         <h1 class="text-center">Marine Litter Detective</h1>
       </div>
-      <div class="col-md-2 col-md-offset-1 logo-right img-responsive hidden-sm hidden-xs"></div>
+      <div class="col-md-2  logo-right img-responsive hidden-sm hidden-xs"></div>
+	<div class="col-md-2 logo-right2 img-responsive hidden-sm hidden-xs"></div>
     </div>
     <div class="row">
       <div class="col-xs-1"></div>
@@ -88,7 +92,7 @@
 
     <div class="row">
       <div class="col-xs-1"></div>
-      <div class="col-xs-10 col-md-10 col-md-offset-1">
+      <div class="col-xs-10 col-md-10 col-md-offset-1" style="font-family:'WWF',sans-serif; font-size:17px;">
         <p>
           <h2>Select start time and end time of the animation loop</h2>
           <div style="float:left; margin-right: 30px;">
@@ -116,7 +120,7 @@
   <pre><code class="javascript" id="code"></code></pre>
   <div class="row">
     <div class="col-xs-1 col-md-1"></div>
-    <div class="col-xs-10 col-md-10">
+    <div class="col-xs-10 col-md-10" style="font-family:'WWF',serif; font-size:17px;">
       <p>
         <center>Do you know where marine litter comes from? <br>A lot of litter generated on land actually ends up in the ocean, but how? </center><br></p>
       <p>WWF-Hong Kong, in cooperation with MakerBay, has designed a tracking device to simulate how litter enters the sea through storm drains and rivers, and is working with students from 11 schools to trace the journey of litter. This helps us understand
@@ -124,19 +128,22 @@
         for collection.
       </p>
       <ul>
-        <li>21st Jun (9:00-16:00) - Tsang Pik Shan Secondary School</li>
-        <li>28th Jun (11:00-18:00) - Po Leung Kuk Ho Yuk Ching (1984) College </li>
-        <li>29th Jun (9:00-16:00) - New Territories Heung Yee Kuk Yuen Long District Secondary School </li>
-        <li>3rd Jul (9:00-15:00) - Shueng Shui Government Secondary School</li>
-        <li>4th Jul (9:00-13:30) - Pui Shing Catholic Secondary School</li>
-        <li>8th Jul (date and time - tbc) - HKSKH Bishop Hall Secondary School</li>
-        <li>11th Jul (9:00-16:30) - True Light Girls' College</li>
-        <li>12th Jul (8:00-14:00) - Buddhist Mau Fung Memorial College</li>
-        <li>13th Jul (9:00-16:00) - Lai King Catholic Secondary School</li>
-        <li>21st Jul (9:00-16:00) - Buddhist Fat Ho Memorial College</li>
+        <li>21st Jun - Tsang Pik Shan Secondary School</li>
+        <li>28th Jun - Po Leung Kuk Ho Yuk Ching (1984) College </li>
+        <li>29th Jun - New Territories Heung Yee Kuk Yuen Long District Secondary School </li>
+        <li>3rd Jul  - Shueng Shui Government Secondary School</li>
+        <li>4th Jul  - Pui Shing Catholic Secondary School</li>
+        <li>8th Jul  - HKSKH Bishop Hall Secondary School</li>
+        <li>11th Jul - True Light Girls' College</li>
+        <li>12th Jul - Buddhist Mau Fung Memorial College</li>
+        <li>13th Jul - Lai King Catholic Secondary School</li>
+        <li>21st Jul - Buddhist Fat Ho Memorial College</li>
       </ul>
       <p>
-        <center> This project is sponsored by the Environment and Conservation Fund and the Environmental Campaign Committee of Hong Kong SAR Government.
+	<br><center>	<div class="fb-video" data-href="https://www.facebook.com/wwfhongkong/videos/10154701313716892/?hc_ref=ARR8idEDZvccVyMxLj0DRWYlQrD4KI9qnFL4VXgNx3X89q6CYGoYajGinpp5tSq7riE&amp;pnref=story" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/wwfhongkong/videos/10154701313716892/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wwfhongkong/videos/10154701313716892/"></a><p>WHERE DOES OUR TRASH GO? 
+Have you ever wondered where trash ends up after it has been washed down a storm drain or river? If so, you can now find out! WWF has partnered with MakerBay and created a GPS device designed to track the origin and destination of #MarineLitter. Watch the video to check out how it works.</p>Posted by <a href="https://www.facebook.com/wwfhongkong/">WWF Hong Kong</a> on Sunday, 23 July 2017</blockquote></div>
+</center>
+        <br><center> This project is sponsored by the Environment and Conservation Fund and the Environmental Campaign Committee of Hong Kong SAR Government.
           <br>All hardware and software is open source and documented here: <a href="https://makerbay.github.io/Marine_Litter_Detective/" target="_blank">https://makerbay.github.io/Marine_Litter_Detective/</a>
         </center>
       </p>
@@ -145,6 +152,7 @@
     </div>
     <div class="col-xs-1 col-md-1"></div>
   </div>
+
 
   <pre><code class="javascript" id="code" overflow="false"><center><div class="google-button"><a class="g-plusone" data-size="medium" data-annotation="none"></a></div><a href="https://twitter.com/intent/tweet?text=Data Visualization for WWF HK and MakerBay designed Arduino drifters to track Marine Litter &url=http://makerbench.org/NOAA/leaflet/examples/drifter.html" target="_blank"><img src="http://clicktotweet.com/img/tweet-graphic-4.png" alt="Tweet" style="width: 68px; padding-right: 5px;"/></a><div class="fb-like" data-href="http://makerbench.org/NOAA/leaflet/examples/drifter.html" data-layout="button_count" data-size="small" data-show-faces="true" data-share="true" data-mobile-iframe="true"></div><a href="https://github.com/MakerBay/Marine_Litter_Detective" target="_blank"><img src="img/GitHub-Mark-64px.png" style="width: 29px; padding-left: 5px; padding-right:5px;"/></a></center></code></pre>
 
@@ -165,7 +173,7 @@
 
 
   <div class="disclaimer">
-    <center> Credits and great thanks to : Patrick Yeung, Nicole Lam [WWF] and the Marine Litter Detective Team [Cesar Jung-Harada, Rohak Singhal (MakerBay), Eddie Yung (Green Orange)],<br> Michael CY CHENG (INDEPENDENT), Shuyang [Seeed Studio],"Student Drifter
+    <center> Credits and great thanks to : Patrick Yeung, Nicole Lam, Jennifer Cheng, Maggie Kwok (WWF) and the Marine Litter Detective Team [Cesar Jung-Harada, Rohak Singhal (MakerBay), Eddie Yung (Green Orange)],<br> Michael CY CHENG (INDEPENDENT), Shuyang [Seeed Studio],"Student Drifter
       Program" Prof James Manning[NOAA] and Xavier Huanxin Xu [NOAA], Tom Chi, Jie Qi [MIT], Cy Keener [Stanford University].</center>
 
   </div>

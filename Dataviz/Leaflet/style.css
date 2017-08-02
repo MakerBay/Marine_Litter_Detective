@@ -10,12 +10,20 @@ body {
   height: 100%;
 }
 
+@font-face {
+    font-family: 'WWF';
+    font-style: normal;
+  font-weight: 400;
+    src: url(WWF.otf);
+}
+
 #header {
   /*background-image: url(../img/drifticon.png);*/
+  font-family:'WWF',serif;
   background-size: 100px 80px;
   background-position: top left;
   background-repeat: no-repeat;
-  min-height:90px;
+  min-height:120px;
 }
 
 #header a {
@@ -24,20 +32,39 @@ body {
 }
 
 .logo-left {
-  content: url(../img/drifticon.png);
-  padding-top: 5px;
-  height: 70px;
+  content: url(../img/leaf.jpg);
+  /*padding-top:2px;*/
+  height: 85px;
   width: auto;
 }
 
-.logo-right {
-  content: url(../img/makerbaylogo.png);
-  height: 80px;
+.logo-left2 {
+  content: url(../img/tree.jpg);
+  padding-top:5px;
+  height: 85px;
   width: auto;
 }
+
+
+.logo-right {
+  content: url(../img/wwflogo.jpg);
+  height: 90px;
+  /*padding-top:5px;*/
+  width: auto;
+}
+
+
+.logo-right2 {
+  content: url(../img/makerbaylogo2.png);
+  height: 85px;
+  padding-top:5px;
+  width: auto;
+}
+
 
 #footer {
   clear: both;
+  font-family:'WWF',serif;
   border-top: #D8D8D8 1px solid;
   padding: 10px 0;
 }
@@ -45,7 +72,8 @@ body {
 #footer a {
   color: #999;
   ;
-  font-family: Georgia, serif;
+  /*font-family: Georgia, serif;*/
+  font-family:'WWF',serif;
   text-decoration: none;
 }
 
@@ -95,15 +123,15 @@ a.github:hover span {
 
 h1, h2 {
   color: #5B7EAB;
-  font-family: Georgia, serif;
-  font-weight: normal;
+  font-family: WWF, sans-serif;
+  font-weight: 100;
   margin: 5px 0px;
 }
 
 h1 {
 color: #222222;
   margin-top: 25px;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 h1 small {
@@ -393,8 +421,9 @@ ul.examples li a img {
   margin: 20px 0;
   color: #333;
   background-color: #f0f0f0;
-  font-size: 0.9em;
+  font-size: 1em;
   padding: 5px;
+  font-family:'WWF',serif;
 }
 
 
@@ -405,3 +434,4 @@ left:-122px;
 height: 0px;
 top: 1px;
 }
+
