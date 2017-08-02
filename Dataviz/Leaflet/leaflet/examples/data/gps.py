@@ -19,18 +19,18 @@ next_time=tim.strftime('<%Y-%m-%d %H:%M:%S>', tim.localtime(cur))
 time_file.write(str(next_time))
 time_file.close()
 
-db=MySQLdb.connect(host="marinelitterdetective.net",user="marinelitterdetective",passwd="RZmo2wh6",db="marine",port=3306)
+db=MySQLdb.connect()
 
 
 cur = db.cursor()
 
-cur.execute("SHOW TABLES FROM marine")
+cur.execute("SHOW TABLES FROM ")
 
-cur.execute("SELECT DISTINCT Device_ID FROM trashtrack_school_00_test")
+cur.execute("SELECT DISTINCT Device_ID FROM ")
 for row in cur.fetchall():
  if(row[0]!=0 and row[0]!=24465 and row[0]!=10211 and row[0]!=1634543477 and row[0]!=10311 and (row[0]!=50005 and row[0]!=10205 and row[0]!=50008 and row[0]!=10302 and row[0]!=10304 and row[0]!=10405)):
     ID=int(row[0])
-    cur.execute("SELECT Lat,Longi,Battery,locTime FROM trashtrack_school_00_test WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
+    cur.execute("SELECT Lat,Longi,Battery,locTime FROM  WHERE Device_ID = %f && locTime > '%s' ORDER BY locTime"%(ID,time))
 
     school="___"
     teacher="___"
