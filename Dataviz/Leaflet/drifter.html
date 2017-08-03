@@ -61,27 +61,33 @@
 
   <! -- Google Analytics -->
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-102410762-1', 'auto');
-  ga('send', 'pageview');
-
+    ga('create', 'UA-102410762-1', 'auto');
+    ga('send', 'pageview');
   </script>
 
   <div class="container-fluid">
     <div id="header" class="row text-center">
-	<div class="col-md-7 col-md-offset-2 hidden-sm hidden-xs" align="left">資助機構Sponsored By</div>
-  <div class="col-md-1 " align="left"><a href="http://makerbench.org/NOAA/leaflet/examples/drifter-ch.html">中文(香港)</a></div>
+      <div class="col-md-7 col-md-offset-2 hidden-sm hidden-xs" align="left">資助機構Sponsored By</div>
+      <div class="col-md-1 " align="left"><a href="http://makerbench.org/NOAA/leaflet/examples/drifter-ch.html">中文(香港)</a></div>
       <div class="col-md-2 col-md-offset-2 logo-left img-responsive hidden-sm hidden-xs"></div>
-	<div class="col-md-2 logo-left2 img-responsive hidden-sm hidden-xs"></div>
+      <div class="col-md-2 logo-left2 img-responsive hidden-sm hidden-xs"></div>
       <div class="col-md-4 ">
         <h1 class="text-center">Marine Litter Detective</h1>
       </div>
       <div class="col-md-2  logo-right img-responsive hidden-sm hidden-xs"></div>
-	<div class="col-md-2 logo-right2 img-responsive hidden-sm hidden-xs"></div>
+      <div class="col-md-2 logo-right2 img-responsive hidden-sm hidden-xs"></div>
     </div>
     <div class="row">
       <div class="col-xs-1"></div>
@@ -93,25 +99,32 @@
 
     <div class="row">
       <div class="col-xs-1"></div>
-      <div class="col-xs-10 col-md-10 col-md-offset-1" style="font-family:'WWF',sans-serif; font-size:17px;">
-        <p>
-          <h2>Select start time and end time of the animation loop</h2>
-          <div style="float:left; margin-right: 30px;">
-            <label for="start_time">Start time (HKT)</label><br><input id="dtp_start" name="start_time" type="text">
-          </div>
-          <div style="float:left; margin-right: 30px;">
-            <label for="end_time">End time (HKT)</label><br><input id="dtp_end" name="end_time" type="text">
-          </div>
-          <div style="float:left; padding-top: 25px;">
-            <button type="button" id="btn_limitrange" class="btn">Apply new time limits range</button><br />
-            <p>Click the button above when you set the Drifter time range </p>
-
-            <button type="button" id="btn_timerange" class="btn">Apply time to available range</button>
-            <p>Click the second button while you need to reset the time slider <br>after you set time range</p>
-
-          </div>
-        </p>
+      <div class="col-xs-10 col-sm-10 col-md-10 col-md-offset-1">
+        <h2>Select start time and end time of the animation loop</h2>
       </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-1">
+        <div style="float:left; margin-right: 30px;">
+          <label for="start_time">Start time (HKT)</label><br><input id="dtp_start" name="start_time" type="text">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 ">
+        <div style="float:left; margin-right: 30px;">
+          <label for="end_time">End time (HKT)</label><br><input id="dtp_end" name="end_time" type="text">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 ">
+        <div style="float:left; padding-top: 25px;">
+          <button type="button" id="btn_limitrange" class="btn">Apply new time limits range</button><br />
+          <p>Click the button above when you set the Drifter time range </p>
+
+          <button type="button" id="btn_timerange" class="btn">Apply time to available range</button>
+          <p>Click the second button while you need to reset the time slider <br>after you set time range</p>
+
+        </div>
+      </div>
+
+
     </div>
 
   </div>
@@ -132,19 +145,25 @@
         <li>21st Jun - Tsang Pik Shan Secondary School</li>
         <li>28th Jun - Po Leung Kuk Ho Yuk Ching (1984) College </li>
         <li>29th Jun - New Territories Heung Yee Kuk Yuen Long District Secondary School </li>
-        <li>3rd Jul  - Shueng Shui Government Secondary School</li>
-        <li>4th Jul  - Pui Shing Catholic Secondary School</li>
-        <li>8th Jul  - HKSKH Bishop Hall Secondary School</li>
+        <li>3rd Jul - Shueng Shui Government Secondary School</li>
+        <li>4th Jul - Pui Shing Catholic Secondary School</li>
+        <li>8th Jul - HKSKH Bishop Hall Secondary School</li>
         <li>11th Jul - True Light Girls' College</li>
         <li>12th Jul - Buddhist Mau Fung Memorial College</li>
         <li>13th Jul - Lai King Catholic Secondary School</li>
         <li>21st Jul - Buddhist Fat Ho Memorial College</li>
       </ul>
       <p>
-	<br><center>	<div class="fb-video" data-href="https://www.facebook.com/wwfhongkong/videos/10154701313716892/?hc_ref=ARR8idEDZvccVyMxLj0DRWYlQrD4KI9qnFL4VXgNx3X89q6CYGoYajGinpp5tSq7riE&amp;pnref=story" data-width="350" data-show-text="false" data-allowfullscreen="true"><blockquote cite="https://www.facebook.com/wwfhongkong/videos/10154701313716892/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wwfhongkong/videos/10154701313716892/"></a><p>WHERE DOES OUR TRASH GO?
-Have you ever wondered where trash ends up after it has been washed down a storm drain or river? If so, you can now find out! WWF has partnered with MakerBay and created a GPS device designed to track the origin and destination of #MarineLitter. Watch the video to check out how it works.</p>Posted by <a href="https://www.facebook.com/wwfhongkong/">WWF Hong Kong</a> on Sunday, 23 July 2017</blockquote></div>
-</center>
-        <br><center> This project is sponsored by the Environment and Conservation Fund and the Environmental Campaign Committee of Hong Kong SAR Government.
+        <br>
+        <center>
+          <div class="fb-video" data-href="https://www.facebook.com/wwfhongkong/videos/10154701313716892/?hc_ref=ARR8idEDZvccVyMxLj0DRWYlQrD4KI9qnFL4VXgNx3X89q6CYGoYajGinpp5tSq7riE&amp;pnref=story" data-width="350" data-show-text="false" data-allowfullscreen="true">
+            <blockquote cite="https://www.facebook.com/wwfhongkong/videos/10154701313716892/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wwfhongkong/videos/10154701313716892/"></a>
+              <p>WHERE DOES OUR TRASH GO? Have you ever wondered where trash ends up after it has been washed down a storm drain or river? If so, you can now find out! WWF has partnered with MakerBay and created a GPS device designed to track the origin
+                and destination of #MarineLitter. Watch the video to check out how it works.</p>Posted by <a href="https://www.facebook.com/wwfhongkong/">WWF Hong Kong</a> on Sunday, 23 July 2017</blockquote>
+          </div>
+        </center>
+        <br>
+        <center> This project is sponsored by the Environment and Conservation Fund and the Environmental Campaign Committee of Hong Kong SAR Government.
           <br>All hardware and software is open source and documented here: <a href="https://makerbay.github.io/Marine_Litter_Detective/" target="_blank">https://makerbay.github.io/Marine_Litter_Detective/</a>
         </center>
       </p>
@@ -174,8 +193,8 @@ Have you ever wondered where trash ends up after it has been washed down a storm
 
 
   <div class="disclaimer">
-    <center> Credits and great thanks to : Patrick Yeung, Nicole Lam, Jennifer Cheng, Maggie Kwok (WWF) and the Marine Litter Detective Team [Cesar Jung-Harada, Rohak Singhal (MakerBay), Eddie Yung (Green Orange)],<br> Michael CY CHENG (INDEPENDENT), Shuyang [Seeed Studio],"Student Drifter
-      Program" Prof James Manning[NOAA] and Xavier Huanxin Xu [NOAA], Tom Chi, Jie Qi [MIT], Cy Keener [Stanford University].</center>
+    <center> Credits and great thanks to : Patrick Yeung, Nicole Lam, Jennifer Cheng, Maggie Kwok (WWF) and the Marine Litter Detective Team [Cesar Jung-Harada, Rohak Singhal (MakerBay), Eddie Yung (Green Orange)],<br> Michael CY CHENG (INDEPENDENT), Shuyang [Seeed
+      Studio],"Student Drifter Program" Prof James Manning[NOAA] and Xavier Huanxin Xu [NOAA], Tom Chi, Jie Qi [MIT], Cy Keener [Stanford University].</center>
 
   </div>
 
@@ -187,13 +206,16 @@ Have you ever wondered where trash ends up after it has been washed down a storm
   </script>
 
   <!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+  <script type="text/javascript">
+    (function() {
+      var po = document.createElement('script');
+      po.type = 'text/javascript';
+      po.async = true;
+      po.src = 'https://apis.google.com/js/platform.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(po, s);
+    })();
+  </script>
 
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
