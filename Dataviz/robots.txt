@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /home/makerbench/makerbench.org/NOAA/leaflet/examples/data/*
+Disallow: /home/makerbench/makerbench.org/data/*
